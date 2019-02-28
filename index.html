@@ -13,12 +13,6 @@
   <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="css/imagehover.min.css">
   <link rel="stylesheet" type="text/css" href="css/style.css">
-  <!-- =======================================================
-    Theme Name: Mentor
-    Theme URL: https://bootstrapmade.com/mentor-free-education-bootstrap-theme/
-    Author: BootstrapMade.com
-    Author URL: https://bootstrapmade.com
-  ======================================================= -->
 </head>
 
 <body>
@@ -30,8 +24,7 @@
         <div class="row">
           <div class="banner-text text-center">
             <div class="text-border">
-              <a class="navbar-brand" href="index.html"><span>Nobres</span>TI</a>
-              <h2 class="text-dec"></h2>
+              <p class="name"><span>Nobres</span>TI</p>
             </div>
             <div class="intro-para text-center quote">
               <p class="big-text">Soluções inteligentes para problemas reais</p>
@@ -39,7 +32,7 @@
               <a href="#footer" class="btn get-quote">CONTATO</a>
             </div>
             <a href="#feature" class="mouse-hover">
-              <div class="mouse"></div>
+              <a href="#footer" class="btn get-quote"><div class="mouse"></div></a>
             </a>
           </div>
         </div>
@@ -53,37 +46,37 @@
       <div class="row">
         <div class="header-section text-center">
           <h2>Contato</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem nesciunt vitae,<br> maiores, magni dolorum aliquam.</p>
+          <p>COm o uso de tecnologias e conhecimentos, procuramos criar soluções.<br>Tem algum problema ou necessidade em sua empresa ou trabalho. Fale conosco</p>
           <hr class="bottom-line">
         </div>
-        <div id="sendmessage">Your message has been sent. Thank you!</div>
-        <div id="errormessage"></div>
+        <div id="sendmessage">Sua mensagem foi enviada. Obrigado!</div>
+        <div id="errormessage">Erro, não foi possivel enviar sua mensagem!</div>
         <form action="contactform/contato.php" method="post" role="form" class="contactForm">
           <div class="col-md-6 col-sm-6 col-xs-12 left">
             <div class="form-group">
-              <input type="text" name="name" class="form-control form" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+              <input type="text" name="name" class="form-control form" id="name" placeholder="Nome" data-rule="minlen:4" data-msg="Por favor, insira pelo menos 4 caracteres" />
               <div class="validation"></div>
             </div>
             <div class="form-group">
-              <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+              <input type="email" class="form-control" name="email" id="email" placeholder="E-mail" data-rule="email" data-msg="Informe um email valido" />
               <div class="validation"></div>
             </div>
             <div class="form-group">
-              <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+              <input type="text" class="form-control" name="subject" id="subject" placeholder="Assunto" data-rule="minlen:4" data-msg="Por favor, insira pelo menos 4 caracteres de assunto" />
               <div class="validation"></div>
             </div>
           </div>
 
           <div class="col-md-6 col-sm-6 col-xs-12 right">
             <div class="form-group">
-              <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
+              <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Por favor, insira pelo menos 8 caracteres de assunto" placeholder="Message"></textarea>
               <div class="validation"></div>
             </div>
           </div>
 
           <div class="col-xs-12">
             <!-- Button -->
-            <button type="submit" id="submit" name="submit" class="form contact-form-button light-form-button oswald light">SEND EMAIL</button>
+            <button type="submit" id="submit" name="submit" class="form contact-form-button light-form-button oswald light">Enviar</button>
           </div>
         </form>
 
