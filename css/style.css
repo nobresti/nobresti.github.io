@@ -50,7 +50,6 @@ Navigation bar
 }
 .navbar-default {
     background-color: #ffffff;
-    font-size: 30px;
 }
 .course-text{
     padding: 84px;
@@ -112,14 +111,14 @@ Navigation bar
 Banner
 ************************************/
 .banner{
-	background: url('../img/bg-banner2.jpg') no-repeat center top;
+	background: url('../img/bg-banner.jpg') no-repeat center top;
     background-size: cover;
-	min-height: 600px;
+	min-height: 580px;
     position: relative;
 }
 .bg-color{
 	background-color: RGBA(12, 11, 11, 0.82);
-	min-height: 600px;
+	min-height: 580px;
 }
 .text-dec{
 	font-size: 24px;
@@ -129,7 +128,7 @@ Banner
     color: #fff;
 }
 .text-border{
-	border: 4px solid #5FCF80;
+	border: 5px solid #5FCF80;
 	display: inline-block;
 	margin-top: 150px;
 }
@@ -214,16 +213,9 @@ Banner
     padding-left: 5px;
     padding-right: 0px;
 }
-.name{
-    font-size: 45px;
-    color:#fff;
-}
-
 .big-text{
-    font-size: 45px;
-    color:#fff;
+    font-size: 35px;
 }
-
 .small-text{
     font-size: 16px;
 }
